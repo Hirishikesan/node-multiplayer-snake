@@ -1,7 +1,8 @@
 version: '3.3'
 services:
   snake:
-    image: 'amrit96/snake'
+    build: .
+    image: hirihikesan/snake:latest
     environment:
       - "PORT:3000"
     ports:
